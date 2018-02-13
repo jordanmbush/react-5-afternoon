@@ -135,17 +135,17 @@ const mapStateToProps = state => {
         city            : state.city,
         propToBeUsed    : state.propToBeUsed,
         foun            : state.foun,
-        realEstateAg    : state.realEstateAg,
+        realEstateAgent : state.realEstateAgent,
         cost            : state.cost,
-        downPaym        : state.downPaym,
-        cred            : state.cred,
-        hist            : state.hist,
-        addressO        : state.addressO,
-        addressT        : state.addressT,
+        downPayment     : state.downPayment,
+        credit          : state.credit,
+        history         : state.history,
+        addressOne      : state.addressOne,
+        addressTwo      : state.addressTwo,
         addressThree    : state.addressThree,
-        firstNam        : state.firstNam,
+        firstName       : state.firstName,
         lastName        : state.lastName,
-        email           : state.email
+        email           : state.email,
     }
 }
 
